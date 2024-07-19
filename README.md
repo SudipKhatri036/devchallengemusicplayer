@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://devchallengmultistepform.netlify.app/](https://devchallengmultistepform.netlify.app/)
+- Live Site URL: [https://musicplayerdevchallenge.netlify.app/](https://musicplayerdevchallenge.netlify.app/)
 
 ## My process
 
