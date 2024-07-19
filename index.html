@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img src="./image/cover-1.png" alt="cover image 1" />
+        <div class="description">
+          <h2 class="title">Lost in the City Lights</h2>
+          <p class="author">Cosmo Sheldrake</p>
+        </div>
+        <div class="player-detail">
+          <div class="time">
+            <p class="current-time">00:00</p>
+            <p class="total-time">00:00</p>
+          </div>
+          <!-- <audio controls 
+            <source src="./music/lost-in-city-lights-145038.mp3"
+            type="audio/mpeg" />
+          ></audio> -->
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button id="prev-btn">
+            <img src="image/Stop_and_play_fill-1.svg" alt="Prev btn img" />
+          </button>
+          <button id="play-pause">
+            <img src="image/play.svg" alt="play-pause btn" />
+          </button>
+          <button id="next-btn">
+            <img
+              src="image/Stop_and_play_fill_reverse.svg"
+              alt="Next btn img"
+            />
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
